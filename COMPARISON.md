@@ -11,8 +11,8 @@ Clean clinic-blue system, six flagships then a disclosure for the storefront lis
 ## opus-5 — PASS
 Lightest gzip footprint of the set, phone number repeated as plain text, and booking that only opens `wa.me` — strong local trust pattern. Sparse royal-blue layout avoids card walls; CTA hierarchy (one primary above the fold, sticky Call/Book) is the clearest of the four shipped so far.
 
-## gpt-6-astra — PENDING
-Codex still writing after repeated code-mode stalls; placeholder iframe until `dist/` lands. Will re-critique when the preview ships.
+## gpt-6-astra — PASS
+Calm blue/white single-page with flagships plus full storefront lists, both surgeons, and Google hours baked into location cards. Sticky Call/Book and an explicit WhatsApp handoff (visitor still taps send) keep Trinidad phone trust intact; denser service sections are the main clutter risk on short phones.
 
 ## claude-design — PASS
 Design-MCP explored three mobile canvases then merged storefront-blue hero + doctor cards + thin-rule service lists. Strong five-second glance and verified 44px targets; the deep blue band builds door-panel recognition without overcrowding the resting home.
