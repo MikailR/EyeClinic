@@ -15,19 +15,50 @@ Write `PROTOTYPE.md` at the repo root of your branch noting: model id, visual di
 - Google listings ~5.0; **no website today** — this prototype is the future site
 - Hours differ by branch (Chaguanas denser weekdays/Sat; Tacarigua Mon/Wed heavy). Show hours clearly; if unsure, label as “Confirm when booking” rather than inventing exact schedules.
 
-## Services to feature (clear, sparse — not a wall of cards)
+## Doctors (from storefront — use exact credentials)
 
-Lead with what the practice **is**: specialist eye care / ophthalmology.
+1. **Dr. Shehenaz Z. Mohammed** — M.B.B.S (UWI), MRCOphth (Lond.) — Eye Specialist / Eye Surgeon
+2. **Dr. Kellita Dalrymple** — M.B.B.S, FICO, FRCS (Ophth) (Glasg.) — Eye Specialist / Eye Surgeon
 
-Default service set (adjust wording, don’t invent exotic procedures):
-- Comprehensive eye exams & scans
-- Cataract surgery
-- Glaucoma care
-- Diabetic & retina care
-- Pediatric eye care
-- Optical — glasses & contact lenses
+Lead with Dr. Mohammed as the practice principal; include Dr. Dalrymple on About / team. No invented photos — placeholders labeled for real photos later. Brand mark on doors: stylized blue eye icon + “The Eye Clinic”.
 
-One sentence in the hero must make the offering obvious to a Trinidadian parent or older patient on a phone.
+
+## Branch hours (confirmed from Google Business)
+
+- **Chaguanas (Mid Center Mall):** Mon, Tue, Thu, Fri, Sat 9:00 AM–5:00 PM; closed Wed & Sun. Appointments required. Free/on-site parking.
+- **Tacarigua (12 Eastern Main Road):** Mon & Wed 9:00 AM–5:00 PM; closed Tue, Thu, Fri, Sat, Sun. Appointments recommended. Wheelchair-accessible parking/restroom; debit cards accepted.
+- Same phone both branches: **+1 868-290-0590**
+- Show hours per location on the site — do not invent different schedules.
+
+## Services (AUTHORITATIVE — from clinic storefront panels)
+
+Do **not** invent procedures beyond this list. Group clearly on the site; keep the UI sparse (two sections, not 17 equal cards).
+
+### Diagnostic tests & imaging
+- Visual Acuity Testing
+- Colour Vision Testing
+- Visual Field Testing (VFT)
+- Optical Coherence Tomography (OCT)
+- Fundus Autofluorescence
+- Fluorescein Angiography
+- Pachymetry
+- A-Scans
+- B-Scan Ultrasound
+
+### Advanced eye care (procedures / treatments)
+- Cataract Surgery
+- Glaucoma Surgery and Medical Management
+- Myopia Management in Kids
+- Pterygium excision and graft
+- Laser Eye Treatments
+- Diabetic Eye Treatments
+- Eye Injections
+- Chalazion / Stye excision
+- Note on site: “Other services available upon consultation”
+
+Hero must still make the offering obvious in one glance: specialist eye care / eye surgery in Trinidad. Homepage can feature 4–6 flagships (e.g. Cataract, Glaucoma, Diabetic eye, OCT/scans, Myopia in kids, Laser) with a “See all tests & treatments” link to the full lists.
+
+Reference photo of the storefront (branding + panels): `/workspace/eye-clinic-bakeoff/brief/storefront.jpg`
 
 ## Audience & constraints (critical)
 
@@ -86,3 +117,9 @@ Optional: FAQ (parking, what to bring, which branch).
 - Both locations appear.
 - Sticky Call + Book work.
 - Build/deploy artifacts land so the comparison host can iframe `/previews/<branch>/`.
+
+## Ship notes for this bakeoff
+- Output ONLY inside your assigned model directory.
+- Vite+React+TS preferred. Set `base: './'` in vite.config so GitHub Pages subpath `/previews/<id>/` works.
+- `npm install && npm run build` must succeed; artifacts in `dist/`.
+- Include `README.md` and `PROTOTYPE.md`.
